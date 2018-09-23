@@ -14,7 +14,7 @@
     <string name="btn_create_wallet">Create Wallet</string>
     <string name="btn_restore_wallet">Restore Wallet</string>
     <string name="restore_wallet_message">Select a backup of the wallet\nfrom a storage unit</string>
-    <string name="pincode_message">For your security \na pincode is needed</string>
+    <string name="pincode_message">For your security \na enter pincode</string>
     <string name="select_file">Select File</string>
     <string name="action_qr">QR Cocde</string>
     <string name="action_add">Add Contact</string>
@@ -22,9 +22,9 @@
     <string name="appbar_scrolling_view_behavior">appbar_scrolling_view_behavior</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="set_amount">Write amount to send</string>
+    <string name="set_amount">Enter amount to send</string>
     <string name="set_amount_wgr">WGR</string>
-    <string name="set_amount_usd">Write amount</string>
+    <string name="set_amount_usd">Enter amount</string>
     <string name="add_all">ADD ALL</string>
     <string name="title_amount">Amount</string>
     <string name="title_address">Address</string>
@@ -57,7 +57,7 @@
     <string name="scan_camera_permission_dialog_message">In order to scan QR codes, you need to grant permission to use the camera.</string>
     <string name="scan_result_title">Scanner result</string>
     <string name="scan_result_address_title">Address detected</string>
-    <string name="node_selection_message">You can select one of the node available or add one </string>
+    <string name="node_selection_message">You can select one of the nodes available or add one </string>
     <string name="select_node">Select Node</string>
 
     <string name="select">Select a Node</string>
@@ -177,10 +177,10 @@
     <string name="button_ok">Ok</string>
     <string name="backup_succed_dialog">backup_succed_dialog</string>
     <string name="error_no_connectivity_title">No internet connection</string>
-    <string name="error_no_connectivity_body">The app is going to save your transaction until the connection back.\nDo you want to continue?</string>
+    <string name="error_no_connectivity_body">The app is going to save your transaction until the connection is restored.\nDo you want to continue?</string>
     <string name="cannot_restore_wallet">Error, cannot restore wallet\nplease verify your password</string>
     <string name="dialog_reset_blockchain_title">Reset Blockchain</string>
-    <string name="dialog_reset_blockchain_body">Your blockchain file is going to be reseted.\nThe synchronization could take a while.\n\nAre you sure?</string>
+    <string name="dialog_reset_blockchain_body">Your blockchain file is going to be reset.\nThe synchronization could take a while.\n\nAre you sure?</string>
     <string name="reseting_blockchain">Reseting blockchain..</string>
     <string name="donations">Donations</string>
     <string name="donation_message">Donations help with the maintenance and development of the app.\nThanks in advance.</string>
@@ -206,14 +206,14 @@
     <string name="invalid_last_amount">Invalid last address amount</string>
     <string name="inputs_explanation">Select coins to consume in the transaction</string>
     <string name="bad_address">Bad address</string>
-    <string name="invalid_amount_value">Invalid amount rate</string>
+    <string name="invalid_amount_value">Invalid rate amount</string>
     <string name="select_all">Select all</string>
     <string name="total_amount">Total:</string>
     <string name="send_amount_input_error">You must set an amount to add custom inputs.</string>
     <string name="tx_detail_amount">Total amount</string>
     <string name="tx_detail_inputs_title">Source coins</string>
     <string name="tx_detail_inputs">%d inputs</string>
-    <string name="txt_detail_confirmations">Confirmations amount</string>
+    <string name="txt_detail_confirmations">Amount of Confirmations</string>
     <string name="tx_detail_no_memo">No description</string>
     <string name="tx_detail_addresses">Outputs</string>
     <string name="custom_fee">Custom fee</string>
@@ -253,8 +253,8 @@
     <string name="report_crash_title">Report crash</string>
     <string name="crash_toast_text">Wagerr wallet crash</string>
     <string name="backup_fail">Backup fail</string>
-    <string name="no_peer_connection">No connection to the node</string>
-    <string name="wallet_is_not_sync">Wallet is not sync, to be sure about your real balance please wait until the synchronization finish</string>
+    <string name="no_peer_connection">No connections to any nodes</string>
+    <string name="wallet_is_not_sync">Wallet is not synced, to be sure about your real balance please wait until the synchronization is finished</string>
     <string name="warn_sharing_pub_key">Sharing your public key will allow anybody to view your balance and transaction history.</string>
     <string name="public_key">Public key</string>
     <string name="derivation_path">Derivation path (BIP32)</string>
@@ -267,7 +267,7 @@
     <string name="settings_import_xpub">Watch only mode</string>
     <string name="screen_title_watch_only">Watch Only</string>
     <string name="watch_only_mode_activated">Watch only mode activated</string>
-    <string name="watch_only_mode_activated_text">Please wait until the synchronization is completed, could take a while be patient.</string>
+    <string name="watch_only_mode_activated_text">Please wait until the synchronization is complete, it could take a while, be patient.</string>
     <string name="error_importing_xpub">Please check the key or send an error report.</string>
     <string name="error_importing_xpub_title">Error importing xpub</string>
     <string name="error_watch_only_mode">Action is not possible on watch only mode</string>
@@ -281,7 +281,7 @@
     <string name="sweep_wallet_info">You are about to transfer coins from a paper wallet to your Wagerr wallet.\nAfter the transfer is complete, please avoid reusing the paper wallet for security reasons.\n\nSupported formats: WIF, BIP38, Mini private key.</string>
     <string name="sweep_wallet_key_title">Private key</string>
     <string name="sweep_wallet_key_password">Private key password</string>
-    <string name="sweep_wallet_key_hint">type or scan a private key</string>
+    <string name="sweep_wallet_key_hint">Type or scan a private key</string>
     <string name="sweep_wallet_bad_format">Could not recognize the private key format.</string>
     <string name="sweep_wallet_bad_coin_type">The private key type does not match the destination account type.</string>
     <string name="sweep_wallet_bad_password">Incorrect password.</string>
@@ -358,7 +358,7 @@
     \n
     This disclaimer was amended for the last time on January 1st, 2016.</string>
     <string name="settings_sweep_wallet">Sweep wallet</string>
-    <string name="disconnected_label">No connection</string>
+    <string name="disconnected_label">No connections</string>
     <string name="error_generic">Error occurred while performing action</string>
     <string name="old_wallet_version">Old wallet version</string>
     <string name="advance_restore">Advanced restore</string>
@@ -368,8 +368,8 @@
     <string name="message_blockstore_error">Blockchain store corrupted\n\nPlease send the error report and try to restore the wallet from the mnemonic code or the backup file.</string>
     <string name="upgrade_wallet">Upgrade Wallet</string>
     <string name="upgrade_succesfull">Upgrade was successful!, please wait some time before the wallet is sync again</string>
-    <string name="write_external_denied">Permission denied to write in the external storage</string>
-    <string name="message_connection_is_needed">Peer connection is needed to execute this task, please check if your internet is active or if you are using a trusted node check if it is online.</string>
+    <string name="write_external_denied">Permission denied to write to the external storage</string>
+    <string name="message_connection_is_needed">Peer connection is needed to execute this task, please check your internet connection is active or if you are usiing a trusted node, make sure it is online.</string>
     <string name="no_rate">No rate</string>
     <string name="change_address_explain">You can customize the change address of your transaction specifing it or checking the box below and sending the amount to the origin (if there is more than one origin the wallet will chose the address with the highest rate).</string>
     <string name="change_address_origin">Send it to origin.</string>
@@ -394,12 +394,12 @@
     <string name="sync_in_progress">The wallet is out of sync, some transactions may be missing.\nPlease wait until the sync process finishes to see your current balance.</string>
     <string name="bet_event_sync_in_progress">The wallet is out of sync, some bet event may be missing.\nPlease wait until the sync process finishes to see what you can bet.</string>
     <string name="bet_event_stop">Betting closes 20 minutes before event start time. Any bets placed after this time will be invalid and will not be paid out!</string>
-    <string name="bet_event_not_sync">Please wait until sync to place bet!</string>
-    <string name="bet_event_not_connect_peer">Please wait until connect to peer to place bet!</string>
+    <string name="bet_event_not_sync">Please wait until sync is finished before placing bet!</string>
+    <string name="bet_event_not_connect_peer">Please wait until connected to a peer to place a bet!</string>
     <string name="bet_event_odds_change">Bet event odds change, please refresh the bet list!</string>
     <string name="warning_title">WARNING!!!</string>
 
     <string name="update_dialog_title">Update</string>
-    <string name="update_dialog_content">There is a new version %s, please visit <a href="https://github.com/LooorTor/wagerr-android/releases">https://github.com/LooorTor/wagerr-android/releases</a> to update</string>
+    <string name="update_dialog_content">There is a new version %s, please visit to get new version <a href="https://github.com/LooorTor/wagerr-android/releases">https://github.com/LooorTor/wagerr-android/releases</a> to update</string>
 
 </resources>
